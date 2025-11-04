@@ -1,5 +1,18 @@
+footer{
+	display:flex;
+	justify-content: center;
+	background: #e60063;
+	padding-top: 40px;
+	padding-bottom: 120px;
+}
 .center{
-	text-align: center;
-	background: pink;
-	margin-bottom: 45px;
+	font-size: 30px;
+}
+.fa{
+	padding-left: 60px;
+	color: white;
+}
+.copywrite{
+	color:white;
+	padding-top: 20px;
 }
