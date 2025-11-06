@@ -1,0 +1,58 @@
+.roboto {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+}
+.magra-bold {
+	font-family: "Magra", sans-serif;
+	font-style: normal;
+}
+body {
+	margin: 0px;
+}
+.title {
+	margin: 0px;
+	background-color: #c8c10d;
+	display: flex;
+	justify-content: center;
+}
+.title h1{
+	text-transform: uppercase;
+	color: white;
+}
+.row1, .row2, .row3{
+	display: flex;
+	margin-left: 225px;
+	margin-right: 225px;
+}
+.row1-container, .row2-container, .row3-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.row1-content1, .row2-content1, .row3-content1{
+	padding-right: 0px;
+}
+.row1 p, .row2 p, .row3 p{
+	font-size: 20px;
+	line-height: 20px;
+	color: #7a6666;
+}
+.row1 a, .row2 a, .row3 a{
+	color: #7a6666;
+}
+.row1 a:hover, .row2 a:hover, .row3 a:hover{
+	color: #c8c10d;
+}
+.row1 h4, .row2 h4, .row3 h4{
+	text-align: center;
+	text-transform: uppercase;
+	color: #e60063;
+}
+.row1 h2, .row2 h2, .row3 h2{
+	text-transform: capitalize;
+	color: #e60063;
+}
+.row1-content2, .row2-content2, .row3-content2{
+	display: flex;
+	margin-left: 0px; 
+}
