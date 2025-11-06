@@ -1,0 +1,28 @@
+.header{
+	display: flex;
+	justify-content: center;
+	background: #edece8;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.menu-container{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 80%;
+}
+a.active{
+	color: #ed138f;
+	
+}
+a.menu-item{
+	text-decoration: none;
+	color: black;
+	text-transform: uppercase;
+	padding-right: 100px;
+}
+
+
+.menu-container:hover{
+	color: yellow;
+}
