@@ -1,0 +1,132 @@
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+}
+.roboto {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+}
+.magra-bold {
+	font-family: "Magra", sans-serif;
+	font-style: normal;
+}
+body {
+	margin: 0px;
+}
+.title {
+	margin: 0px;
+	background-color: #c8c10d;
+	display: flex;
+	justify-content: center;
+}
+.title h1{
+	text-transform: uppercase;
+	color: white;
+}
+.content{
+	display: flex;
+	justify-content: center;
+}
+.content1{
+	display: flex;
+	width: 850px;
+}
+
+.content1-main-content, .content1-main-content2{
+	display: flex;
+}
+.hr {
+	margin-top: 20px;
+	padding-bottom: 20px;
+}
+.content1-main-content2{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.separator{
+
+}
+.text{
+	margin-left: 30px;
+}
+	
+div h2{
+	color: #e60063;
+	text-transform: uppercase;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.p {
+	padding-top: 0px;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
+.p2 a, .p2 p, .p p{
+	color: #7a6666;
+}
+.button{
+	margin-top: 30px;
+}
+.btn1{
+	border: 2px solid #cbb5bc;
+	color: #a5838e;
+	display: block;
+	font-size: 16px;
+	font-weight: normal;
+	height: 36px;
+	line-height: 36px;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	text-transform: uppercase;
+	width: 156px;
+	text-decoration: none;
+}
+.content1-content2{
+	display: flex;
+	justify-content: center;
+	background-color: #ededed;
+	height: 650px;
+	padding: 30px;
+}
+.img1{
+	display: flex;
+	justify-content: center;
+}
+.content1-content2 h3{
+	text-transform: capitalize;
+	font-size: 25px;
+	text-align: center;
+}
+.content1-content2 h3, .content1-content2 h4{
+	color: #e60063;
+	text-align: center;
+	margin-top: 20px;
+}
+.content1-content2 h4{
+	text-transform: uppercase;
+	text-align: center;
+}
+.content1-content2 .p{
+	color: #7a6666;
+	margin-top: -16px;
+}
+.content1-content2 .p22{
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	color: #7a6666;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.content1-content2 .p22 p{
+	text-align: center;
+}
+.btn1:hover{
+	background-color: #c8c10d;
+	border: none;
+	height: 40px;
+	line-height: 40px;
+	width: 160px;
+	color: #ffffff;
+}
