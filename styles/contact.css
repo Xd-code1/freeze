@@ -1,0 +1,80 @@
+body{
+	margin: 0px;
+}
+.main-content-container{
+	display: flex;
+	justify-content: center;
+	background: #c8c10d;
+	margin-bottom: 10px;
+}
+.big-yellow-header{
+	text-align: center;
+	font-size: 30px;
+	color: white;
+	/**margin-top: 10px;**/
+	text-transform: uppercase;
+	
+}
+.content-body{
+	display: flex;
+	justify-content: center;
+}
+.content-container{
+	width: 850px;
+	display: flex;
+	justify-content: space-between;
+}
+.inquiry-form{
+	width: 65%;
+	/**padding-right: 20px;**/
+}
+.inquiry-form h2{
+	color: #e60063;
+	text-transform: uppercase;
+}
+.inquiry-form input{
+	width: 100%;
+	padding: 15px 10px;
+	font-size: 18px;
+}
+.inquiry-form textarea{
+	width: 100%;
+	color: grey;
+	padding: 15px 10px;
+}
+.content-card{
+	width: 30%
+}
+.bg-grey{
+	background: #edece8;
+	padding: 10px 35px;
+}
+.bg-grey h2{
+	text-align: center;
+	color: #e60063;
+}
+.bg-grey p{
+	line-height: 25px;
+	text-align: center;
+	color: #9c9797;
+}
+.bg-grey a{
+	color:#9c9797; 
+}
+.btn1{
+	border: 2px solid #cbb5bc;
+	/**color: #a5838e;**/
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 36px;
+	text-align: center;
+	text-transform: uppercase;
+	margin-top: 10px;
+	padding: 2px 40px;
+	margin-bottom: 150px;
+}
+.btn1:hover{
+	background-color: #c8c10d;
+	border: none;
+	color: grey;
+}
